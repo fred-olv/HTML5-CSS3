@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://github.com/fred-olv?tab=repositories" target ="_blank" rel="external">repositorio público</a> no GitHub</p> <!-- Usando os parâmetros target = "blank" rel = "external" eu faço com que o link em questão seja aberto em outra aba e não sobre a minha página atual. É recomendado quando estamos usando um link para outro site-->
+
+    <p>Você também pode acessar o meu <a href="https://www.linkedin.com/in/frederico-olv/">linkdIn</a></p>
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="nest">segunda página.</a></p>
+    <p>Você também pode acessar nossa página de <a href="noticias/pag003.html" target="_self" rel="next">notícias</a></p> <!-- O parâmetro _self é usado para abrir a próxima página na mesma aba em questão-->
+    <h1>Lista para download</h1>
+    <ul>
+        <li><a href="livros/meulivro.pdf" target="_blank" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li> <!--Enquanto o link estiver vasio devo colocar um # para demonstrar isso.-->
+        <li><a href="livros/meulivro.zip" download="meulivro.sip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+    <p>Para ter a acesso a uma lista com todos os media-types pode acessar a essa página: <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">media-types</a></p>
+</body>
+</html>
